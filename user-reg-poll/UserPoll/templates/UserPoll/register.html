@@ -1,0 +1,161 @@
+<html>
+
+<head>
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/bonus.css">
+	<link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAD4+Pji+Pj48vj4+PD4+Pjw9ff48Mfj9/Wn3fj4l9f4+pbX+Pqk3Pf5ud739vL2+PH4+Pjw+Pj48Pj4+PL4+Pji+Pj4//j4+P/4+Pj/yeT3/5rZ+P+Q0vf/l9L3/53U9/+d1Pf/mNL3/4/R9/+f2/j/weP4//j4+P/4+Pj/+Pj4//j4+O/4+Pj/teD4/4/K9v+Qy/b/lM33/5TO9/+Uzvf/lM73/5TO9/+Vzvf/jMn2/4jH9v+s3Pf/+Pj4//j4+PD4+Pjv0+n3/4PJ9v+N0Pf/kND2/4/Q9v+P0Pb/j9D2/4/Q9v+P0Pb/j9D2/4/Q9v+O0Pf/gcn2/7/h9//4+Pjw7Pb48Frb/P9e2fv/YNn7/1/Z+/9f2fv/X9n7/1/Z+/9f2fv/X9n7/1/Z+/9f2fv/X9n7/2DZ+/9a2vz/1/L586/l+fZh0fr/YdL6/2HS+v9h0vr/YdL6/2HS+v9h0vr/YdL6/2HS+v9h0vr/YdL6/2HS+v9h0vr/YdH6/5bf+fqK2fn7ZM75/2TO+f9kzvn/ZM75/2TO+f9kzvn/ZM75/2TO+f9kzvn/ZM75/2TO+f9kzvn/ZM75/2TO+f971fn8etH4/WfL+P9ny/j/Z8v4/2fL+P9ny/j/Z8v4/2fL+P9ny/j/Z8v4/2fL+P9ny/j/Z8v4/2fL+P9ny/j/cs/4/n/O+P1qx/j/asf4/2rH+P9qx/j/asf4/2rH+P9qx/j/asf4/2rH+P9qx/j/asf4/2rH+P9qx/j/asf4/3fL+P6U0vf6bcT3/23E9/9txPf/bcT3/23E9/9txPf/bcT3/23E9/9txPf/bcT3/23E9/9txPf/bcT3/23E9/+Gzff8v+H39XDB9v9wwfb/cMH2/3DB9v9wwfb/cMH2/3DB9v9wwfb/cMH2/3DB9v9wwfb/cMH2/3DB9v9wwfb/ptf3+fT2+O92wPX/cr71/3K+9f9yvvX/cr71/3K+9f9yvvX/cr71/3K+9f9yvvX/cr71/3K+9f9yvvX/cr71/+Xw+PL4+Pjv0eb3/3W79P91u/T/dbv0/3W79P91u/T/dbv0/3W79P91u/T/dbv0/3W79P91u/T/dbv0/7nb9//4+Pjw+Pj47/j4+P+01vb/eLf0/3i49P94uPT/eLj0/3i49P94uPT/eLj0/3i49P94uPT/eLf0/6PN9f/4+Pj/+Pj48Pj4+P/4+Pj/+Pj4/87h9v+Hu/P/e7Tz/3u18/97tfP/e7Xz/3u18/97tPP/gbfz/8Pc9v/4+Pj/+Pj4//j4+P/4+Pjg+Pj48vj4+O/4+Pjv8/X48MXb9vWlyPT6kb3z/I+88/yixvT6vtf19u3y+PD4+Pjv+Pj47/j4+PL4+PjhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
+	<!-- Inspired by form -  https://40.media.tumblr.com/cc256aa6771e073fee5ca6f012713af5/tumblr_nw85iv9hjm1uhk6tmo1_1280.png -->
+	<!-- Colours
+	Yellow - FBD75C
+	Orange - F2B07E
+	-->
+  
+<style>
+ @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html {
+	background:#ECF0F1;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+}
+
+a {
+	display:block;
+	text-decoration:none;
+	color:#A2A5A6;
+	text-align:center;
+	padding:20px 0 0;
+}
+
+form {
+	margin:5% auto;
+	width:400px;
+	min-height:400px;
+	background:white;
+	padding:2.5% 5% 2.5%;
+	border-radius:2.5%;
+}
+
+form img {
+	text-align:center;
+	width:35%;
+	margin:0 auto;
+	display:block;
+	padding:0;
+}
+
+h2 {
+	font-size:2em;
+	padding:0;
+	margin:0;
+	text-align:center;
+}
+
+input {
+	margin:5% 0;
+	border:none;
+	width:100%;
+	font-size:1.5em;
+	padding:0 0 2%;
+	background:none;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+#name {
+	border-bottom:2px solid #FBD75C;
+}
+
+#email {
+	border-bottom:2px solid #F2B07E;
+}
+
+#password {
+	border-bottom:2px solid #BDC3C7;
+}
+
+label {
+	color:#BDC3C7;
+	text-transform:uppercase;
+	font-size:0.8em;
+	letter-spacing:4px;
+}
+
+#button {
+	background:none;
+	border:none;
+	width:100%;
+	min-height:50px;
+	margin:10px 0 10px;
+	border-radius:2.5%;
+	color:white;
+	padding:0.5% 0 0;
+	font-size:1.75em;
+	
+	-webkit-transition: background 1s ease-out;  
+    -moz-transition: background 1s ease-out;  
+    -o-transition: background 1s ease-out;  
+    transition: background 1s ease-out; 
+	
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2b07e+0,fbd75c+100 */
+	background: #f2b07e; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f2b07e 0%, #fbd75c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2b07e), color-stop(100%,#fbd75c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f2b07e 0%,#fbd75c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f2b07e 0%,#fbd75c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f2b07e 0%,#fbd75c 100%); /* IE10+ */
+	background: linear-gradient(to right,  #f2b07e 0%,#fbd75c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2b07e', endColorstr='#fbd75c',GradientType=1 ); /* IE6-9 */
+}
+
+
+#button:hover {
+    background-position:-400px;  
+} 
+  
+</style>
+
+<style>
+  html {
+	background: url(https://whatjackhasmade.co.uk/my_images/15.10.15%20-%20Replicate%20Form/images/sun.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+form {
+	background:rgba(255,255,255,0.95);
+}  
+  
+</style>
+</head>
+
+<body>
+
+<form >
+    {% csrf_token %}
+  <h2>Sign Up</h2>
+  <br>
+    {% for field in form %}
+        <div class = "form-group">
+            <div><span class = "text-danger small">{{ field.errors }}</span></div>
+            <label class="control-label col-sm-2">
+            {{ field.label_tag }}
+            </label>
+            <div class = "col-sm-10">{{ field }}</div>
+        </div>
+    {% endfor %}
+  <input id="button" type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
