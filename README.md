@@ -1,3 +1,3 @@
-###  THIS CODE DOES NOT WORK YET !!!
+###  THIS CODE DOES NOT REDIRECT YET !!!
 
-# register.html is not yet submitting the form and adding the INFO. Will Update it soon!
+# !NoReverseMatch, No models added!
